@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+</head>
+
+<body>
+    <header>
+        <h1 style="text-align:center;">Lucas Resende</h1>
+        <h2 style="text-align:center;">Software Development Engineer</h2>
+        <hr>
+    </header>
+    <h2>Entre em contato</h2>
+    <form id="contactForm">
+        <label for="nome">Nome Completo:</label><br>
+        <input type="text" id="nome" name="nome"><br>
+        <span id="nomeError" style="color: red;"></span><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <span id="emailError" style="color: red;"></span><br>
+
+        <label for="mensagem">Mensagem:</label><br>
+        <textarea id="mensagem" name="mensagem" rows="4" cols="50"></textarea><br>
+        <span id="mensagemError" style="color: red;"></span><br>
+
+        <button type="submit" id="enviarBtn" style="background-color: yellow;">Enviar</button>
+    </form>
+    <p id="feedback" style="color: green;"></p>
+
+</body>
+
+</html>
